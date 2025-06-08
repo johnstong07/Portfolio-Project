@@ -1,0 +1,93 @@
+#introduction{
+  text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+
+h1{
+font-size: 50px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.intro{
+    color: darkblue
+      
+}
+
+#info{
+  width: 150px;
+  height: 40px;
+  padding: 10px 20px; 
+}
+
+#about{
+    background-color: green;
+}
+
+
+
+.techImg{
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  height:450px;
+  width: 450px;
+  position:relative;
+  
+}
+
+#details{
+  height: 100%;
+    display: block;
+    text-align: right;
+    margin-top: 0;
+    
+    margin-bottom: 1rem;
+    position: absolute;
+    right: 50;
+    top: 50;
+
+}
+
+#resume{
+   width: 150px;
+  height: 40px;
+  padding: 10px 20px; 
+}
+
+.row{
+  margin-left: auto;
+}
+
+
+imgOne{
+  float: right;
+  height: 400px;
+  width: 400px;
+  justify-content: right;
+  display: flex;
+  position: relative;
+}
+
+#projectDetails1{
+ width: 450px;        /* Set width equal to height for a square */
+  height: 450px;       /* Set height equal to width */
+  box-sizing: border-box; /* Include border in the element's total size */
+  display: flex;        /* Optional: to center text inside */
+  align-items: center;  /* Optional: center vertically */
+  justify-content: center; /* Optional: center horizontally */
+}
+
+#contact{
+    background-color: green;
+}
