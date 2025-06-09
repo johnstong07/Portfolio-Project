@@ -7,6 +7,8 @@
 }
 
 
+
+
 h1{
 font-size: 50px;
 }
@@ -35,59 +37,89 @@ p{
 }
 
 
+.container {
+  display: flex;                 /* Make it a flex container */
+  flex-direction: row;        /* Stack items vertically */
+  align-items: center;           /* Center items horizontally */
+  justify-content: center;       /* Center items vertically (if container has height) */
+  text-align: center;              /* Center text inside elements if needed */
+  padding: 20px;                 /* Optional: add some padding */
+  box-sizing: border-box;  
+  gap: 150px;
+  }
 
-.techImg{
-  justify-content: left;
-  align-items: left;
-  display: flex;
-  height:450px;
-  width: 450px;
-  position:relative;
-  
+#videogame{
+  height: 300px;
+  width: 500px;
 }
 
-#details{
-  height: 100%;
-    display: block;
-    text-align: right;
-    margin-top: 0;
-    
-    margin-bottom: 1rem;
-    position: absolute;
-    right: 50;
-    top: 50;
-
+#toDo{
+  height: 300px;
+  width: 500px;
+  border-style: solid;
 }
+
+#tierList{
+  height: 300px;
+  width: 500px;
+}
+
+#connections{
+  height: 300px;
+  width:500px;
+  border-style: solid;
+}
+  .text-box {
+    width: 300px; /* make it a square box, adjust as needed */
+    height: 300px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px; /* optional padding inside the box */
+    box-sizing: border-box;
+    font-size: large;
+    border-style: hidden;
+  }
 
 #resume{
    width: 150px;
   height: 40px;
+  background-color: gray;
+}
+
+#sourceCode1{
+   width: 150px;
+  height: 40px;
   padding: 10px 20px; 
+  background-color: gray;
 }
 
-.row{
-  margin-left: auto;
+#sourceCode2{
+   width: 150px;
+  height: 40px;
+  padding: 10px 20px; 
+  background-color: gray;
 }
 
-
-imgOne{
-  float: right;
-  height: 400px;
-  width: 400px;
-  justify-content: right;
-  display: flex;
-  position: relative;
-}
-
-#projectDetails1{
- width: 450px;        /* Set width equal to height for a square */
-  height: 450px;       /* Set height equal to width */
-  box-sizing: border-box; /* Include border in the element's total size */
-  display: flex;        /* Optional: to center text inside */
-  align-items: center;  /* Optional: center vertically */
-  justify-content: center; /* Optional: center horizontally */
+#sourceCode3{
+   width: 150px;
+  height: 40px;
+  padding: 10px 20px; 
+  background-color: gray;
 }
 
 #contact{
     background-color: green;
+}
+
+#contactInfo{
+  text-align: center;
+  justify-content: center;
+}
+
+footer{
+  text-align: center;
 }
