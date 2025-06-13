@@ -123,3 +123,9 @@ p{
 footer{
   text-align: center;
 }
+
+@media (max-width: 600px){
+  section{
+    padding: 20px;
+  }
+}
